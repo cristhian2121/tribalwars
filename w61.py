@@ -55,8 +55,8 @@ class TinderBot():
         in_pasword = self.driver.find_element_by_xpath('//*[@id="password"]')
         button_login = self.driver.find_element_by_class_name('btn-login')
 
-        in_user.send_keys('metano21')
-        in_pasword.send_keys('Cris1234')
+        in_user.send_keys('')
+        in_pasword.send_keys('')
         button_login.click()
 
         sleep(3)
